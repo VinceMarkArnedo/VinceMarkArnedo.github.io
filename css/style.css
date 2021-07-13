@@ -52,35 +52,39 @@ html{
 
 .about{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 100vh;
     width: 100vw;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 20px;
-    padding-top: 80px;
+    padding-top: 0px;
+    padding-left: 100px;
     /* padding-left: 50px;
     padding-right: 50px; */
 
-    background-color: red;
+    /* background-color: red; */
 }
 
 
 .profpic{
-    height: 350px;
-    width: 24%;
+    height: 300px;
+    width: 25%;
     padding: 0px 20px;
+    padding-top: 0px;
     padding-right: 100px;
     /* background-image: url('hahaha.jpg');
     background-size: 100% 100%; */
-    background-color: blue;
+    /* background-color: blue; */
     border-radius: 50%;
 }
 
 .profpic img{
     min-width:100%;
-    min-height:auto;
-    max-width:auto;
-    max-height:auto;
+    min-height:80%;
+    width:100%;
+    height:auto;
+    /* max-width:auto;
+    max-height:auto; */
     /* object-fit: contain; */
 
     
@@ -109,16 +113,17 @@ html{
     }
 
     .about{
-        padding-top: 30px;
+        padding-top: 0px;
         padding-left: 0;
         padding-right: 0;
+        flex-direction: column;
         
 
     }
 
     .profpic{
         width: 80%;
-        height: 100%;
+        height: 80%;
         padding: 5% 0px 0px 0px;
         margin: 0px 0px 0px 0px;
 
@@ -138,7 +143,7 @@ html{
 
     #about h1 {
         /* background-color: red; */
-        font-size: 20px;
+        font-size: 18px;
       }
 
     .introduction{
