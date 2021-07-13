@@ -55,14 +55,16 @@ html{
     flex-direction: row;
     height: 100vh;
     width: 100vw;
-    align-items: flex-start;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    margin-top: 0px;
     margin-bottom: 20px;
     padding-top: 0px;
     padding-left: 100px;
     /* padding-left: 50px;
     padding-right: 50px; */
 
-    /* background-color: red; */
+    background-color: red;
 }
 
 
@@ -74,14 +76,14 @@ html{
     padding-right: 100px;
     /* background-image: url('hahaha.jpg');
     background-size: 100% 100%; */
-    /* background-color: blue; */
+    background-color: blue;
     border-radius: 50%;
 }
 
 .profpic img{
     min-width:100%;
     min-height:80%;
-    width:100%;
+    width:auto;
     height:auto;
     /* max-width:auto;
     max-height:auto; */
@@ -142,7 +144,7 @@ html{
     }
 
     #about h1 {
-        /* background-color: red; */
+        /* background-color: yellow; */
         font-size: 18px;
       }
 
@@ -151,6 +153,11 @@ html{
         padding-left: 0px;
         /* width: 60%; */
         height: 50%;
+    }
+
+    .introduction h1{
+        background-color: yellow;
+        font-size: 1.1rem;
     }
 
     .introduction p {
