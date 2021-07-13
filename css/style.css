@@ -147,9 +147,11 @@ html{
     }
 
     .profpic img{
-        max-width: 100%;
-        height:max-content;
-        padding: 0px 0px 0px 0px;
+        min-width:100%;
+    min-height:100%;
+
+    
+    border-radius: 50%;
 
     }
 
