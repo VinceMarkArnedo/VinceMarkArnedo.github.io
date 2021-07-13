@@ -117,7 +117,7 @@ html{
     }
 
     .profpic{
-        width: 100%;
+        width: 80%;
         height: 100%;
         padding: 10% 0px 0px 0px;
         margin: 0px 0px 0px 0px;
@@ -129,7 +129,7 @@ html{
 
     .profpic img{
         object-fit: fill;
-        min-width:auto;
+        min-width:100%;
         min-height:100%;
         max-width:auto;
         max-height:auto;
