@@ -129,8 +129,8 @@ html{
 
     .profpic img{
         object-fit: fill;
-        min-width:100%;
-        min-height:auto;
+        min-width:auto;
+        min-height:100%;
         max-width:auto;
         max-height:auto;
 
