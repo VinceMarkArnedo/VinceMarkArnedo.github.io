@@ -1,0 +1,30 @@
+#showOrHide{
+    display: none;
+    font-size: 1.2rem;
+}
+
+#showOrHide2{
+    display: none;
+    font-size: 1.2rem;
+}
+
+.toggleArea{
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle{
+    color: #f1356d;
+}
+.toggle:hover{
+    cursor: pointer;
+}
+
+.toggleArea img{
+    width:22px;
+    height: 22px;
+}
+
+h2{
+    font-size: 28px;
+}

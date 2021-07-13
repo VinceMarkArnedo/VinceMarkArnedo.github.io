@@ -1,0 +1,153 @@
+/* Black and Pink */
+/* :root {
+  --dominant_color: #0b0c10;
+  --complimentary_color: white;
+  --accent_color: #f1356d; 
+} */
+/* var(--dominant_color) */
+/* var(--accent_color) */
+
+/* :root { Hacker Hero
+    --dominant_color: #1b1d21;
+    --complimentary_color: white;
+    --accent_color: #37d261; 
+  } */
+
+  :root { 
+    --dominant_color: #1b1d21;
+    --complimentary_color: white;
+    --accent_color: #28a745; 
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+/* Education Section */
+#education{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #0b0c10; */
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+
+    /* align-items: center;
+        align-self: center;
+        justify-self: center;
+        justify-content: center; */
+}
+
+/* About Section */
+#about{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    /* height: 100%; */
+    height: auto;
+    padding-right: 2%;
+    padding-bottom: 10%;
+}
+
+#about h1{
+    /* color: var(--accent_color); */
+    font-size: 33px;
+    padding-bottom: 12px;
+
+
+      /* Create the gradient. */
+      /* background-image: var(--gradient);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent; */
+}
+
+
+.about{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 80px;
+}
+.about img{
+    width: 30%;
+    /* height: 95%; */
+    height: 100%;
+    padding: 0px 30px;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+
+
+.introduction{
+    padding: 10px;
+    padding-right: 44px;
+    padding-left: 44px;
+    width: 70%;
+}
+.introduction bold{
+    font-size: 1.8rem;
+    color:var(--accent_color);
+}
+.introduction p{
+    font-size: 1.2rem;
+}
+
+@media all and (max-width: 800px) {
+    #about{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .about{
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    .about img{
+        height: auto;
+        width: auto;
+    }
+
+    #about h1 {
+        /* background-color: red; */
+        font-size: 20px;
+      }
+
+    .introduction{
+        padding-right: 3px;
+        padding-left: 3px;
+        /* width: 60%; */
+        height: 50%;
+    }
+
+    .introduction p {
+      /* background-color: red; */
+      font-size: 1rem;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .introduction bold{
+        font-size: 1.1rem;
+    }
+
+  } 
+

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap'); 
+
+/* Black and Pink */
+:root {
+  --dominant_color: #0b0c10;
+  --complimentary_color: white;
+  --accent_color: #f1356d; 
+}
+/* var(--dominant_color) */
+/* var(--accent_color) */
+
+/* :root {
+  --dominant_color: #212121;
+  --complimentary_color: white;
+  --accent_color: #cc0000; 
+} */
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+}
+
+.portfolio{
+  width: 100%;
+  background-color: var(--dominant_color);
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.portfolio h1{
+  color:var(--accent_color);
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.cards{
+  width: 90%;
+  margin: 50px auto;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(333px, 1fr));
+  grid-gap: 30px;
+  justify-content: center;
+  /* padding-left: 350px; */
+  /* background-color: red; */
+}
+
+.card{
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0, 0.2);
+  border-radius: 9%;
+
+  background-color: white;
+  height: 100%;
+  /* padding-top: 0px;
+  margin-top: 0px; */
+
+
+  
+}
+
+.card:hover{
+  /* box-shadow: 1px 4px 6px 1px #333;  */
+  box-shadow: 1px 2px 4px 1px var(--accent_color); 
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 4x;
+    padding-right: 4px;
+}
+
+.card h2:hover{
+  cursor:pointer;
+}
+
+.card img{
+  width: 100%;
+}
+
+.card img:hover{
+  cursor:pointer;
+}
+
+
+
+.content{
+  text-align: center;
+  /* padding: 10px; */
+  margin-top: 15px;
+  padding-top: 0px;
+  padding-right: 28px;
+  padding-bottom: 15px;
+  padding-left: 28px;
+}
+
+
+.content h2{
+  /* margin-top: 5px; */
+  letter-spacing: 1.5px;
+  color:var(--accent_color);
+
+      /* Create the gradient. */
+      /* background-image: var(--gradient);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent; */
+}
+
+@media all and (max-width: 1600px) {
+  .content h2 {
+    /* background-color: red; */
+    font-size: 18px;
+    padding-bottom: 4px;
+  }
+} 
+
+.content h3{
+  font-size: 17px;
+  color:#5c5c5c;
+  letter-spacing: 1.5px;
+}
+
+.content p{
+  margin-top: 10px;
+  color:#353333;
+}
+
+@media all and (max-width: 800px) {
+  .content p {
+    /* background-color: red; */
+    font-size: 16px;
+  }
+} 
+
+
+.content a{
+  margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #d9563f;
+  color:#fff;
+  font-size: 17px;
+  padding: 5px 18px;
+  border-radius: 40px;
+  letter-spacing: 1.5px;
+}
+
+.content a:hover{
+  background-color: #db7d7d;
+  transition: 0.2s;
+}

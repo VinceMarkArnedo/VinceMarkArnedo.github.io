@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --dominant_color: #0b0c10;
+  --complimentary_color: white;
+  --accent_color: #00d8ff; 
+  --gradient: linear-gradient(91.4deg, rgb(235, 104, 104) -6%, rgb(235, 142, 65) 12.4%, rgb(233, 221, 101) 31.7%, rgb(180, 231, 111) 51.4%, rgb(92, 204, 230) 70.1%, rgb(101, 113, 233) 89.4%, rgb(170, 95, 248) 107.7%);
+}
+/* var(--dominant_color) */
+/* var(--accent_color) */
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar {
+  padding: 9px 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--accent_color);
+  /* background-color: #000000dc; */
+  background-color: var(--dominant_color);
+}
+
+.navbar h1 {
+  /* color: #f1356d; */
+  color: var(--accent_color);
+
+      /* Create the gradient. */
+      /* background-image: var(--gradient);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent; */
+}
+
+.navbar a{
+    display:inline-block;
+    padding: 0 20px;
+    color:white;
+
+      /* Create the gradient. */
+      /* background-image: var(--gradient);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent; */
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: var(--accent_color);
+}
+
+.contact{
+    color: white;
+    background-color: var(--accent_color);
+    border-radius: 8px;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+.contact:hover, .contact:focus {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
+  background-color: rgba(92,184,92,1);
+  color: white;
+  /* border-radius: 50px; */
+/* background: white;*/
+cursor: pointer;
+  padding: .3em 2em;
+
+}

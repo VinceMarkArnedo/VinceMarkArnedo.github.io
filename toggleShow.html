@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <style>
+        *{
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        #showOrHide{
+            display: none;
+            font-size: 1.2rem;
+        }
+
+        #showOrHide2{
+            display: none;
+            font-size: 1.2rem;
+        }
+
+        .toggleArea{
+            align-items: center;
+            justify-content: center;
+        }
+
+        .toggle{
+            color: #f1356d;
+        }
+        .toggle:hover{
+            cursor: pointer;
+        }
+
+        img{
+            width:22px;
+            height: 22px;
+        }
+
+        h2{
+            font-size: 28px;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="toggleArea" onclick="showOrHideDiv()">
+        <!-- <img src="Images/toggle.png"> -->
+        <h2 class="toggle"><img id="toggleImage" src="Images/toggle.png"> Education</h2>
+    </div>
+    <div id="showOrHide">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid hic aperiam ad quae, quia officia sit. Officiis qui deserunt iure eaque hic illum expedita, ratione repellat molestias atque iste velit, delectus ut magni sit ab ducimus dolore nobis, eius ullam eveniet? Quam, at adipisci quae delectus quia eveniet officia. Quam iusto tenetur blanditiis dolores eos doloribus, odio numquam architecto alias amet consequatur, quae eius corporis, officiis fugit temporibus reiciendis. Beatae nobis molestias tempore omnis consequuntur hic qui ducimus iure nostrum. Aperiam ab magnam sit iusto excepturi perferendis aliquid
+
+
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. 
+    </div>
+
+    <div class="toggleArea" onclick="showOrHideDiv2()">
+        <!-- <img src="Images/toggle.png"> -->
+        <h2 class="toggle"><img id="toggleImage2" src="Images/toggle.png"> Education</h2>
+    </div>
+    <div id="showOrHide2">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid hic aperiam ad quae, quia officia sit. Officiis qui deserunt iure eaque hic illum expedita, ratione repellat molestias atque iste velit, delectus ut magni sit ab ducimus dolore nobis, eius ullam eveniet? Quam, at adipisci quae delectus quia eveniet officia. Quam iusto tenetur blanditiis dolores eos doloribus, odio numquam architecto alias amet consequatur, quae eius corporis, officiis fugit temporibus reiciendis. Beatae nobis molestias tempore omnis consequuntur hic qui ducimus iure nostrum. Aperiam ab magnam sit iusto excepturi perferendis aliquid
+
+
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. 
+    </div>
+
+</body>
+</html>
+
+
+<script>
+    function showOrHideDiv() {
+       var toggle = document.getElementById("showOrHide");
+       var toggleImage  = document.getElementById("toggleImage");
+
+
+       if (toggle.style.display === "block") {
+        toggle.style.display = "none";
+        // toggleImage.style.width = "22px";
+        toggleImage.style.transform = "rotate(0deg)";
+       } else {
+        toggle.style.display = "block";
+        // toggleImage.style.width = "40px";
+        toggleImage.style.transform = "rotate(90deg)";
+       }
+    }
+
+    function showOrHideDiv2() {
+       var toggle = document.getElementById("showOrHide2");
+       var toggleImage  = document.getElementById("toggleImage2");
+
+
+       if (toggle.style.display === "block") {
+        toggle.style.display = "none";
+        // toggleImage.style.width = "22px";
+        toggleImage.style.transform = "rotate(0deg)";
+       } else {
+        toggle.style.display = "block";
+        // toggleImage.style.width = "40px";
+        toggleImage.style.transform = "rotate(90deg)";
+       }
+    }
+ </script>
