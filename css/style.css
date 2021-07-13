@@ -64,7 +64,7 @@ html{
     /* padding-left: 50px;
     padding-right: 50px; */
 
-    background-color: red;
+    /* background-color: red; */
 }
 
 
@@ -76,7 +76,7 @@ html{
     padding-right: 100px;
     /* background-image: url('hahaha.jpg');
     background-size: 100% 100%; */
-    background-color: blue;
+    /* background-color: blue; */
     border-radius: 50%;
 }
 
@@ -156,13 +156,13 @@ html{
     }
 
     .introduction h1{
-        background-color: yellow;
+        /* background-color: yellow; */
         font-size: 1.1rem;
     }
 
     .introduction p {
       /* background-color: red; */
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       padding-left: 0;
       padding-right: 0;
     }
