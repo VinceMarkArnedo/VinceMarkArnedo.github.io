@@ -14,6 +14,249 @@
     <link rel="stylesheet" media="screen and (max-width:1170px)" href="css/tablet.css">
     <link rel="stylesheet" media="screen and (max-width:900px)" href="css/phone.css">
     <link rel="stylesheet" media="screen and (max-width:695px)" href="css/phone1.css">
+
+    <style>
+
+      /* #about h1{
+          font-size: 33px;
+          padding-bottom: 12px;
+      }
+      
+      
+          .about{
+              display: flex;
+              flex-direction: row;
+              height: 90vh;
+              width: 100vw;
+              justify-content: start;
+      
+              margin-top: 0px;
+              margin-bottom: 20px;
+              padding-top: 0px;
+              padding-left: 100px;
+      
+      
+              background-color: red;
+          }
+      
+      
+          .introduction{
+              padding-top: 10px;
+              margin-top: 0px;
+              padding-right: 10%;
+              padding-left: 54px;
+              width: 75%;
+      
+              background-color: cadetblue;
+          }
+          .introduction bold{
+              font-size: 1.8rem;
+              color:var(--accent_color);
+          }
+          .introduction p{
+              font-size: 1.2rem;
+          }
+      
+      
+          .circular--portrait {
+              position: relative;
+              width: 25vw;
+              height: 25vw;
+              overflow: hidden;
+              border-radius: 50%;
+          }
+      
+          .circular--portrait img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+          }
+      
+          @media all and (max-width: 768px) {
+              .circular--portrait {
+                  width: 60vw;
+                  height: 60vw;
+              }
+          } */
+      
+          *{
+          margin: 0;
+          padding: 0;
+          
+      }
+      html{
+          scroll-behavior: smooth;
+      }
+      
+          #about h1{
+              font-size: 33px;
+              padding-bottom: 12px;
+          }
+      
+          .about{
+              /* width: 100%; */
+              width: 100vw;
+              height: 100vh;
+              display:flex;
+              justify-content: center;
+              align-items: center;
+              /* background-color: red; */
+          }
+      
+      
+      
+      
+          .container {
+              width: 30%;
+              height: 50%;
+              /* background-color: blue; */
+      
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin:auto;
+          }
+      
+          /* @media all and (max-width: 768px) {
+              .about {
+                  width: 100%;
+      
+                  flex-direction: column;
+              }
+      
+              .container{
+      
+                  margin-top: 30%;
+                  width:90%;
+                  height: 30%;
+              }
+      
+              .circle{
+                  width: 80%;
+                  padding: 30% 0 0;
+              }
+      
+              .circle img {
+                  width: 80%;
+                  height: 60%;
+              }
+      
+              #about h1{
+                  padding-bottom: 0;
+              }
+      
+      
+              .introduction{
+                  padding-top: 0px;
+                  margin-top: 0px;
+                  padding-right: 0px;
+                  padding-left: 0px;
+                  width: 100%;
+                  height: 100%;
+              }
+      
+              .introduction bold{
+                  font-size: 1.2rem;
+                  color:orange;
+              }
+      
+              .introduction p{
+                  font-size: 0.8rem;
+              }
+      
+          } */
+      
+          .circle {
+              position: relative;
+              width: 80%;
+              height: 0%;
+              padding: 80% 0 0;
+              border-radius: 50%;
+              overflow: hidden;
+              border: 1px solid gray;
+      
+          }
+      
+          .circle img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+          }
+      
+      
+          .introduction{
+              padding-top: 10px;
+              margin-top: 0px;
+              padding-right: 5%;
+              padding-left: 5%;
+              width: 100%;
+              /* width: 70%; */
+              /* background-color: cadetblue; */
+          }
+      
+          .introduction bold{
+              font-size: 1.8rem;
+              color:var(--accent_color);
+          }
+      
+          .introduction p{
+              font-size: 1.2rem;
+          }
+      
+      
+          @media all and (max-width: 768px) {
+              .about {
+                  width: 100%;
+                  flex-direction: column;
+              }
+      
+              .container{
+                  margin-top: 5%;
+                  margin-right: 5%;
+                  margin-left: 5%;
+                  width:100%;
+                  height: 60%;
+              }
+      
+              .circle{
+                  width: 60%;
+                  /* padding: 90% 0 0; */
+                  padding: 50% 0 0;
+              }
+      
+              .circle img {
+                  width: 100%;
+                  height: 100%;
+              }
+      
+              #about h1{
+                  padding-bottom: 0;
+              }
+      
+      
+              .introduction{
+                  padding-top: 0px;
+                  margin-top: 0px;
+                  padding-right: 5%;
+                  padding-left: 5%;
+                  width: 100%;
+                  height: 100%;
+              }
+      
+              .introduction bold{
+                  font-size: 1.2rem;
+                  /* color:orange; */
+              }
+      
+              .introduction p{
+                  font-size: 0.8rem;
+              }
+      
+          }
+      </style>
 </head>
 <body>
 
@@ -36,7 +279,7 @@
       <!-- Navbar-->
 
       <!-- Introduction-->
-      <section id="about">
+      <!-- <section id="about">
         <div class="about">
             <div class="profpic">
                 <img src="Images/hahaha.jpg" alt="My Pic">
@@ -51,7 +294,26 @@
     
             </div>
         </div>
-    </section>
+    </section> -->
+
+
+    <div class="about">
+      <div class="container">
+          <div class="circle">
+              <img src="Images/hahaha.jpg" />
+            </div>
+      </div>
+      
+      
+      <div class="introduction">
+          </br>
+          <h1>Quasm iusto tenetur blanditiis dolores eos doloribus</h1>
+      </br>
+          <p>Lorem ipsum , I'm <span><bold> Vince Mark E. Arnedo</bold></span> amet consectetur adipisicing elit. Aliquid hic aperiam ad quae, quia officia sit. Officiis qui deserunt iure eaque hic illum expedita, ratione repellat molestias atque iste velit, delectus ut magni sit ab ducimus dolore nobis</p>
+              </br></br>
+
+      </div>
+  </div>
       <!-- Introduction-->
 
       <!-- Projects-->
