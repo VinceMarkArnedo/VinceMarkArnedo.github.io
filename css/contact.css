@@ -1,45 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap'); 
+
 .inputs{
     display: flex;
-    background-color: red;
+    /* background-color: red; */
 
-    width: 100%;
+    width: 80%;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 768px) {
     #contact{
         width: 100%;
     }
 
     .form{
         width: 100%;
+        background-color: turquoise;
     }
     .inputs{
+        width: 85%;
         flex-direction: column;
     }
 
     .input{
-        width: 100%;
+        min-width: 100%;
         padding: 15px 40px;
     }
+
+    #message{
+    
+        min-width: 85%;
+
+    }
+
+    #submit{
+        min-width: 30%;
+
+
+    }
+
+    .connect{
+        min-width:100%;
+    }
+
+    .connect .img-link{
+        height:24px;
+      }
 }
 
 /* Contact Section */
-#contact{
+/* #contact{
     display: flex;
+    width: 100%;
     flex-direction: column;
     background-color: var(--dominant_color);
+    background-color: yellow;
+} */
+
+.contact{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--dominant_color);
+    /* background-color: yellow; */
 }
 
-#contact h1{
-    margin: 50px ;
+.contact h1{
+    font-family: 'Poppins', sans-serif;
+    color:var(--accent_color);
+    text-align: center;
+    letter-spacing: 2px;
 }
+
 .form{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    background-color: seagreen;
+    width: 100%;
+    /* background-color: seagreen; */
 }
 .input{
     padding: 15px 20px;
@@ -49,14 +87,15 @@
     outline: none;
     border-radius: 25px;
 
-    background-color: sienna;
+    /* background-color: sienna; */
 }
 #message{
     margin: 15px;
     padding: 10px;
     border-radius: 20px;
 
-    width: 100%;
+    width: 80%;
+    /* width: auto; */
 }
 #submit{
     padding: 15px 20px;
@@ -73,4 +112,27 @@
     padding: 18px 22px;
     color: white;
     cursor: pointer;
+}
+
+
+.connect{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 40%;
+    color: orange;
+  
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+
+.connect .img-link{
+    height:32px;
+  }
+  
+  .connect .img-link:hover{
+    height:42px;
 }
