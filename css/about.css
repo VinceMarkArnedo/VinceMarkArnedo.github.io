@@ -1,5 +1,4 @@
 .about_me{
-    /* background-color: chartreuse; */
 
     display: flex;
     flex-direction: column;
@@ -16,13 +15,13 @@
 }
 
 .toggleArea{
-    /* background-color:cornflowerblue; */
+
     padding-bottom: 20px;
     width:85%;
 }
 
 .about_content{
-    /* background-color: darkgoldenrod; */
+
 
     width:85%;  
     font-size: 1.2rem;
