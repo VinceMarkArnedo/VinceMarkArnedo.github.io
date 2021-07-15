@@ -18,11 +18,10 @@ function showOrHideDiv() {
  
         if (toggle.style.display === "block") {
          toggle.style.display = "none";
-         // toggleImage.style.width = "22px";
+         // toggleImage.style.transform = "rotate(0deg)";
          toggleImage.style.transform = "rotate(0deg)";
         } else {
          toggle.style.display = "block";
-         // toggleImage.style.width = "40px";
          toggleImage.style.transform = "rotate(90deg)";
         }
      }
