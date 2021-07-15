@@ -1,0 +1,31 @@
+.about_me{
+    /* background-color: chartreuse; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+.about_me h1{
+    color: #f1356d;
+}
+.about_me h2{
+    text-align: left;
+}
+
+.toggleArea{
+    /* background-color:cornflowerblue; */
+    padding-bottom: 20px;
+    width:85%;
+}
+
+.about_content{
+    /* background-color: darkgoldenrod; */
+
+    width:85%;  
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+
+}

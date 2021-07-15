@@ -14,7 +14,7 @@
 
     .form{
         width: 100%;
-        background-color: turquoise;
+        /* background-color: turquoise; */
     }
     .inputs{
         width: 85%;
@@ -58,13 +58,16 @@
 
 .contact{
     display: flex;
-    width: 100%;
+    /* width: 100%; */
+    width: 100vw;
     flex-direction: column;
     background-color: var(--dominant_color);
     /* background-color: yellow; */
 }
 
 .contact h1{
+    margin-top:2%;
+    margin-bottom:4%;
     font-family: 'Poppins', sans-serif;
     color:var(--accent_color);
     text-align: center;

@@ -8,6 +8,7 @@
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -21,6 +22,10 @@ body {
     background-color: #0b0c10;
 
     font-family: "Quicksand";
+
+    width: 100vw;
+
+    
 }
 
 .brand-title{
@@ -79,6 +84,7 @@ body {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        padding-right: 5px;
     }
 
     .toggle-button {
