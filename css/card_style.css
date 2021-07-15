@@ -31,7 +31,8 @@
   /* width: 100%; */
   /* padding-top:1000px; */
   /* margin-top:1000px; */
-  width: 100vw;
+  /* width: 100vw; */
+  width: 100%;
   background-color: var(--dominant_color);
 
   padding-top: 10px;
