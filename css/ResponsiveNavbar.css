@@ -15,7 +15,10 @@ body {
 .navbar{
     display:flex;
     flex-direction: row;
-    position: relative;
+    /* position: relative; */
+    /* position: sticky; */
+    /* top: 0; */
+    
     /* justify-content: center; */
     justify-content: space-around;
     align-items: center;
@@ -25,8 +28,19 @@ body {
 
     width: 100%;
 
+    border-bottom: 1px solid #f1356d;
     
 }
+
+/* sticky navbar */
+/* .navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+} */
 
 .brand-title{
     color: #f1356d;
