@@ -16,10 +16,7 @@
 // });
 
 function toggleNB2() {
-   // const toggleButton = document.getElementsByClassName('toggle-button')[0];
    const navbarLinks = document.getElementsByClassName('navbar-links2')[0];
-
-
       if (navbarLinks.style.display === "none") {
          navbarLinks.style.display = "flex";
       } else{
