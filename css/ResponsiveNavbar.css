@@ -150,7 +150,7 @@ body {
 
 @media (max-width: 800px) {
     .navbar-links2{
-        display: none;
+        /* display: none; */
         /* display: flex; */
         /* flex-direction: column; */
         width: 40%;

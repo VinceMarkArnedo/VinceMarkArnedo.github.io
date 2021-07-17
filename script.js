@@ -15,20 +15,26 @@
 //         navbarLinks.style.display ="flex";
 // });
 
+
+const navbarLinks = document.getElementsByClassName('navbar-links2')[0];
 function toggleNB2() {
-   const navbarLinks = document.getElementsByClassName('navbar-links2')[0];
-      if (navbarLinks.style.display === "none") {
-         navbarLinks.style.display = "flex";
-      } else{
-         navbarLinks.style.display = "none";
-      }
+   // const navbarLinks = document.getElementsByClassName('navbar-links2')[0];
+      // if (navbarLinks.style.display === "none") {
+      //    navbarLinks.style.display = "flex";
+      // } else{
+      //    navbarLinks.style.display = "none";
+      // }
+
+      navbarLinks.style.display = "flex";
+      // if (navbarLinks.style.display === "none") {
+      //    navbarLinks.style.display = "flex";
+      // } 
 
 
 }
 
 
 function closeNB2(){
-   console.log("Nikki Glaser");
    const navbarLinks = document.getElementsByClassName('navbar-links2')[0];
    navbarLinks.style.display = "none";
 
