@@ -8,7 +8,6 @@
 body {
     margin: 0;
     padding: 0;
-    
 }
 
 
@@ -16,31 +15,17 @@ body {
     display:flex;
     flex-direction: row;
     /* position: relative; */
-    /* position: sticky; */
-    /* top: 0; */
-    
-    /* justify-content: center; */
     justify-content: space-around;
     align-items: center;
     background-color: #0b0c10;
 
     font-family: "Quicksand";
-
     width: 100%;
-
     border-bottom: 1px solid #f1356d;
     
 }
 
-/* sticky navbar */
-/* .navbar::before{
-    content: "";
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-} */
+
 
 .brand-title{
     color: #f1356d;
@@ -99,6 +84,8 @@ body {
         flex-direction: column;
         align-items: flex-start;
         padding-right: 5px;
+
+        /* width: 50%; */
     }
 
     .toggle-button {
@@ -107,12 +94,13 @@ body {
 
     .navbar-links {
         display: none;
+        background-color: #f1356d;
         width: 100%;
     }
 
     .navbar-links ul {
         width: 100%;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 
     .navbar-links ul li {
@@ -125,5 +113,64 @@ body {
 
     .navbar-links.active {
         display: flex;
+        /* width: 50%; */
     }
 }
+
+.navbar-links2{
+    background-color: aquamarine;
+    display:none;
+
+    top:20;
+}
+
+.navbar-links2 ul {
+    display:flex;
+    margin:0;
+    padding:0;
+
+}
+
+
+.navbar-links2 li {
+    list-style: none;
+}
+
+.navbar-links2 li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+
+.navbar-links2 li:hover {
+    background-color: #555;
+}
+
+@media (max-width: 800px) {
+    .navbar-links2{
+        display: none;
+        /* display: flex; */
+        /* flex-direction: column; */
+        width: 40%;
+        float: right;
+
+
+
+        position: sticky;
+        top:3rem;;
+    }
+
+    .navbar-links2 ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links2 ul li {
+        text-align: center;
+    }
+
+}
+
+

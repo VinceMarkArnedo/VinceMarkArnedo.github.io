@@ -1,13 +1,41 @@
 //Responsive Navbar
-const toggleButton = document.getElementsByClassName('toggle-button')[0];
-const navbarLinks = document.getElementsByClassName('navbar-links')[0];
+// const toggleButton = document.getElementsByClassName('toggle-button')[0];
+// const navbarLinks = document.getElementsByClassName('navbar-links')[0];
 
-toggleButton.addEventListener('click', () => {
-        navbarLinks.classList.toggle('active')
-});
+// toggleButton.addEventListener('click', () => {
+//         navbarLinks.classList.toggle('active')
+// });
 //Responsive Navbar
 
+//NAVBAR2
+// const toggleButton = document.getElementsByClassName('toggle-button')[0];
+// const navbarLinks = document.getElementsByClassName('navbar-links2')[0];
 
+// toggleButton.addEventListener('click', () => {
+//         navbarLinks.style.display ="flex";
+// });
+
+function toggleNB2() {
+   // const toggleButton = document.getElementsByClassName('toggle-button')[0];
+   const navbarLinks = document.getElementsByClassName('navbar-links2')[0];
+
+
+      if (navbarLinks.style.display === "none") {
+         navbarLinks.style.display = "flex";
+      } else{
+         navbarLinks.style.display = "none";
+      }
+
+
+}
+
+
+function closeNB2(){
+   console.log("Nikki Glaser");
+   const navbarLinks = document.getElementsByClassName('navbar-links2')[0];
+   navbarLinks.style.display = "none";
+
+}
 
 
 //ToggleShow About
