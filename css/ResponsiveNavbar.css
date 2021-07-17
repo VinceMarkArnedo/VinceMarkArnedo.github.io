@@ -153,7 +153,7 @@ body {
         /* display: none; */
         /* display: flex; */
         /* flex-direction: column; */
-        width: 40%;
+        width: 30%;
         float: right;
 
 
@@ -163,7 +163,7 @@ body {
     }
 
     .navbar-links2 ul {
-        width: 100%;
+        width: 60%;
         flex-direction: column;
     }
 

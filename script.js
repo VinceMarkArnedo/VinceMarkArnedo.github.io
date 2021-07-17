@@ -25,10 +25,12 @@ function toggleNB2() {
       //    navbarLinks.style.display = "none";
       // }
 
-      navbarLinks.style.display = "flex";
-      // if (navbarLinks.style.display === "none") {
-      //    navbarLinks.style.display = "flex";
-      // } 
+      
+      if (navbarLinks.style.display === "flex") {
+         navbarLinks.style.display = "none";
+      } else {
+         navbarLinks.style.display = "flex";
+      }
 
 
 }
