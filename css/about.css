@@ -42,3 +42,13 @@
 #toggleImage{
     transform: rotate(90deg);
 }
+
+
+@media (max-width: 800px) {
+
+    .about_me h1{
+        margin-top:10%;
+        color: #f1356d;
+    }
+
+}
