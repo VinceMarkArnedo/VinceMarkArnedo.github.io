@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Vince Arnedo | Software Engineer</title>
     <!-- <link rel="stylesheet" href="Navbar A.css"> -->
     <link rel="stylesheet" href="css/ResponsiveNavbar.css">
     <link rel="stylesheet" href="css/intro2.css">
+    <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/card_style.css">
     <link rel="stylesheet" href="css/toggleShow.css">
     <link rel="stylesheet" href="css/about.css">
@@ -20,19 +21,41 @@
 
     <style>
       
-          *{
-          margin: 0;
-          padding: 0;
+      :root {
+        --dominant_color: white;
+        --complimentary_color: #20a1dc;
+        --accent_color: #FFD500; 
+        --typeface_color1: black;
+        --typeface_color2: black;
+      }
+
+
+            *{
+                margin: 0;
+                padding: 0;
+            
           
-      }
-      html{
-          scroll-behavior: smooth;
-      }
+            }
+            html{
+                scroll-behavior: smooth;
+                /* background-color: var(--complimentary_color); */
+                /* background-image: linear-gradient(to left, rgb(5, 117, 230), rgb(2, 27, 121)); */
+                /* background-image: linear-gradient(to right bottom, #0f3259, #17497b, #1b619f, #1b7bc4, #1296eb); */
+                background-image: white;
+
+            }
+
+            @media (max-width: 800px) {
+                html{
+                    background-image: linear-gradient(to left top, #1296eb, #1b7ec9, #1d67a8, #1a5288, #143d69);
+                }
+            }
       
           .about h1{
               font-size: 33px;
               padding-bottom: 12px;
-              color: #f1356d;
+              /* color: var(--accent_color); */
+              color: var(--accent_color);
           }
       
           .about{
@@ -42,8 +65,21 @@
               display:flex;
               justify-content: center;
               align-items: center;
-              /* background-color: red; */
-          }
+              /* background-color: var(--complimentary_color); */
+              /* color: white; */
+              color: white;
+              /* color: var(--accent_color) */
+              /* padding-left: 10%; */
+              /* padding-top: 10%; */
+              margin-top: 0;
+
+              /* background-image: linear-gradient(to left, rgb(5, 117, 230), rgb(2, 27, 121)); */
+              /* background-image: linear-gradient(to bottom, #02baecd2 0%, #005bea 100%); */
+              /* background-image: linear-gradient(to right top, #0f3259, #17497b, #1b619f, #1b7bc4, #1296eb); */
+              /* background-image: linear-gradient(to right bottom, #0f3259, #17497b, #1b619f, #1b7bc4, #1296eb); */
+              background-image: linear-gradient(to right bottom, #143d69, #1a5288, #1d67a8, #1b7ec9, #1296eb);
+          
+            }
       
       
       
@@ -51,12 +87,14 @@
           .container {
               width: 30%;
               height: 50%;
-              /* background-color: blue; */
+              /* background-color: red; */
       
               display: flex;
               align-items: center;
               justify-content: center;
               margin:auto;
+
+              padding-left: 10px;
           }
       
       
@@ -67,7 +105,10 @@
               padding: 80% 0 0;
               border-radius: 50%;
               overflow: hidden;
-              /* border: 1px solid gray; */
+              /* border: 2px solid yellow; */
+
+              background-color: white;
+              text-align: center;
       
           }
       
@@ -75,9 +116,12 @@
               position: absolute;
               top: 0;
               left: 0;
+              right:5px;
               width: 100%;
               height: 100%;
               object-fit: cover;
+
+             
           }
       
       
@@ -108,6 +152,7 @@
                   /* margin-top:8px; */
 
                   margin-top:38px;
+                  
               }
       
               .container{
@@ -121,12 +166,14 @@
               .circle{
                   width: 60%;
                   /* padding: 90% 0 0; */
-                  padding: 50% 0 0;
+                  padding: 60% 0 0;
               }
       
               .circle img {
                   width: 100%;
                   height: 100%;
+
+
               }
       
               .about h1{
@@ -177,6 +224,7 @@
         </a>
         <div class="navbar-links">
           <ul>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -192,31 +240,12 @@
           <li onclick="closeNB2()"><a href="#contact">Contact</a></li>
         </ul>
       </div>
-      <!-- Navbar-->
-
-      <!-- Introduction-->
-      <!-- <section id="about">
-        <div class="about">
-            <div class="profpic">
-                <img src="Images/hahaha.jpg" alt="My Pic">
-    
-            </div>
-            
-            <div class="introduction">
-                </br>
-                <h1>Quam iusto tenetur blanditiis dolores eos doloribus</h1>
-                <p>Lorem ipsum , I'm <span><bold> Vince Mark E. Arnedo</bold></span> amet consectetur adipisicing elit. Aliquid hic aperiam ad quae, quia officia sit. Officiis qui deserunt iure eaque hic illum expedita, ratione repellat molestias atque iste velit, delectus ut magni sit ab ducimus dolore nobis</p>
-                    </br></br>
-    
-            </div>
-        </div>
-    </section> -->
-
 
     <div class="about">
         <div class="container">
             <div class="circle">
-                <img src="Images/hahaha.jpg" />
+                <!-- <img src="Images/hahaha.jpg" /> -->
+                <img src="Images/hahahaha2.png" />
               </div>
         </div>
         
@@ -232,6 +261,145 @@
     </div>
       <!-- Introduction-->
 
+       <!-- SKILLS-->
+       <div id="skills" class="skills_section">
+           <h1>SKILLS</h1>
+       </br>
+                <div class="itemA skills">
+                    <ul>
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+                
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+                
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+                    </ul>
+                    
+                </div>
+            
+
+                <div class="itemB skills">
+                    <ul>
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+                
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+                
+                    </ul>
+
+
+                    <ul>
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+                
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+
+                        <li>
+                            <h3>Chu chu</h3>
+                            <span class="xpbar">
+                                <span id="html"></span>
+                            </span>
+                        </li>
+                
+                    </ul>
+                </div>
+        
+    
+                
+        
+        
+    </div>
+       <!-- SKILLS-->
       <!-- Projects-->
       <!-- PORTFOLIO--> 
 
@@ -379,7 +547,7 @@
               <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=vincemarkarn@gmail.com"  target="_blank"><img src="media/gmail(1).svg" class="img-link"></a>
               <a href="https://www.linkedin.com/in/vince-mark-arnedo/"  target="_blank"><img src="media/linkedin(1).svg"  class="img-link"></a>
               <a href="file/Vince Mark E - Copy.pdf" download><img src="media/folder(1).svg"  class="img-link"></a>
-              <a href="https://github.com/VinceMarkArnedo"><img src="media/github(2).svg"  class="img-link"></a>
+              <a href="https://github.com/VinceMarkArnedo"><img src="media/github(3).svg"  class="img-link"></a>
 
               <!-- <a class="fas fa-hashtag" style="height:26px;">09369230607</a> -->
               

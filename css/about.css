@@ -1,3 +1,7 @@
+.about_me img{
+    display: none;
+}
+
 .about_me{
     /* background-color: chartreuse; */
 
@@ -8,14 +12,19 @@
     margin-bottom:2%;
 
     width: 100%;
+
+    background-color: white;
+
+    
 }
 
 .about_me h1{
     margin-top:5%;
-    color: #f1356d;
+    color: var(--typeface_color1);
 }
 .about_me h2{
     text-align: left;
+    color: var(--typeface_color1);
 }
 
 .toggleArea{
@@ -48,7 +57,7 @@
 
     .about_me h1{
         margin-top:10%;
-        color: #f1356d;
+        color: var(--accent_color);
     }
 
 }

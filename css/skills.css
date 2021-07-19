@@ -1,0 +1,91 @@
+.skills_section h1{
+    margin-top:5%;
+    margin-bottom:4%;
+    font-family: 'Poppins', sans-serif;
+    color:var(--typeface_color1);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.skills_section{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    padding-bottom: 10px;
+
+    background-color: white;
+}
+
+.skills_section ul li {
+    list-style: none;
+    font-family: "Maven pro", sans-serif;
+    font-weight: 500;
+    
+}
+
+.skills {
+    /* margin: 75px auto; */
+    /* margin: 8px 0 0 0; */
+    margin-left: 5%;
+    margin-right: 10%;
+    /* background-color: yellowgreen; */
+    width: 80%;
+
+    align-items: center; 
+    display: flex;
+
+
+}
+
+.skills ul {
+    list-style-type: disc;
+    margin-left: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    list-style-position: outside;
+    line-height: 1.6;
+
+    width: 80%;
+    /* background-color: burlywood; */
+}
+
+.skills h3{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.xpbar {
+    display: block;
+    height: 7px;
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #20a1dc;
+    background-color: #00AAFF;
+    /* box-shadow: 0 30px 30px -10px #00AAFF; */
+
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.xpbar span {
+    height: 2px;
+    /* float: left; */
+
+    margin-top: 6px;
+    background: #33c51b;
+}
+
+
+@media (max-width: 800px) {
+    .skills_section{
+        flex-direction: column;
+    }
+
+    .skills{
+        width:100%;
+    }
+}
