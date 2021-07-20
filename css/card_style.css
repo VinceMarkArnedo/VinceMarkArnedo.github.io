@@ -91,6 +91,7 @@ html{
 
 .card img{
   width: 100%;
+  margin-top: 5px;
 }
 
 .card img:hover{
@@ -115,7 +116,7 @@ html{
   letter-spacing: 1.5px;
   /* color:var(--complimentary_color); */
   color: #003376;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 
       /* Create the gradient. */
       /* background-image: var(--gradient);
@@ -125,6 +126,10 @@ html{
       -webkit-text-fill-color: transparent; 
       -moz-background-clip: text;
       -moz-text-fill-color: transparent; */
+}
+
+.content h2:hover{
+  border-bottom: 1px solid #FFD500;
 }
 
 @media all and (max-width: 1600px) {
