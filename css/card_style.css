@@ -113,7 +113,8 @@ html{
 .content h2{
   /* margin-top: 5px; */
   letter-spacing: 1.5px;
-  color:var(--complimentary_color);
+  /* color:var(--complimentary_color); */
+  color: #003376;
 
       /* Create the gradient. */
       /* background-image: var(--gradient);
