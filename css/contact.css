@@ -105,7 +105,9 @@
     /* width: auto; */
 }
 #submit{
+    font-size: 16px;
     padding: 15px 20px;
+    /* padding: 10px 15px; */
     margin: 30px;
     width: 15%;
     border-radius: 20px;
@@ -117,6 +119,9 @@
 #submit:hover{
     /* background-color: green; */
     padding: 18px 22px;
+    /* width: 16%; */
+    /* padding-left: 24px;
+    padding-right: 24px; */
     color: var(--typeface_color1);
     cursor: pointer;
 }
